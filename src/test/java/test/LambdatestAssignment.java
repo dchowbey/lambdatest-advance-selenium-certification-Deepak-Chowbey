@@ -141,8 +141,8 @@ public class LambdatestAssignment {
 			HashMap<String, Object> ltOptions = new HashMap<String, Object>();
 //			ltOptions.put("user","deepakchowbey8");
 //			ltOptions.put("accessKey","zp3rTCmyZCezPP0iquDonHq0gtwGmo8bdI2B2e3762tdmXmDIF");
-			ltOptions.put("build", "Advance Test 1");
-			ltOptions.put("name", "your test name");
+			ltOptions.put("build", "Selenium Advanced Certification - Deepak Chowbey");
+			ltOptions.put("name", "Running tests in parallel");
 			ltOptions.put("platformName", platformName);
 			ltOptions.put("profile.default_content_setting_values.notifications", 2);
 
