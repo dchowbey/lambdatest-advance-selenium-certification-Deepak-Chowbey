@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Windows opened by webdriver are: [CDwindow-621EF1B441771A1BF4F802128DA7CF74, CDwindow-4E31F49249F24472654751C28B41C255]]]>
+    </line>
+    <line>
+      <![CDATA[Windows opened by webdriver are: [CDwindow-B80A9D3C5126F08095C081D370BF7714, CDwindow-1869FF79060BBFD96B6C80F8BEF2D344]]]>
+    </line>
+    <line>
+      <![CDATA[Current window open count is: 1]]>
+    </line>
+    <line>
+      <![CDATA[Current window open count is: 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-11-21T00:35:00 EST" name="Suite" finished-at="2021-11-21T00:35:36 EST" duration-ms="36360">
+    <groups>
+    </groups>
+    <test started-at="2021-11-21T00:35:00 EST" name="Test Chrome in Windows" finished-at="2021-11-21T00:35:24 EST" duration-ms="24602">
+      <class name="test.LambdatestAssignment">
+        <test-method is-config="true" signature="remoteDriver(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LambdatestAssignment@54bff557]" started-at="2021-11-21T00:35:00 EST" name="remoteDriver" finished-at="2021-11-21T00:35:10 EST" duration-ms="9887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[86.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remoteDriver -->
+        <test-method signature="lambdatestAdvanceCertificationDeepakChowbey(java.lang.String)[pri:0, instance:test.LambdatestAssignment@54bff557]" started-at="2021-11-21T00:35:10 EST" name="lambdatestAdvanceCertificationDeepakChowbey" finished-at="2021-11-21T00:35:24 EST" duration-ms="14435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Windows opened by webdriver are: [CDwindow-621EF1B441771A1BF4F802128DA7CF74, CDwindow-4E31F49249F24472654751C28B41C255]]]>
+            </line>
+            <line>
+              <![CDATA[Current window open count is: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lambdatestAdvanceCertificationDeepakChowbey -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.LambdatestAssignment@54bff557]" started-at="2021-11-21T00:35:24 EST" name="afterTest" finished-at="2021-11-21T00:35:24 EST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.LambdatestAssignment -->
+    </test> <!-- Test Chrome in Windows -->
+    <test started-at="2021-11-21T00:35:00 EST" name="Test Edge in Mac" finished-at="2021-11-21T00:35:36 EST" duration-ms="36360">
+      <class name="test.LambdatestAssignment">
+        <test-method is-config="true" signature="remoteDriver(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LambdatestAssignment@4d0f2471]" started-at="2021-11-21T00:35:00 EST" name="remoteDriver" finished-at="2021-11-21T00:35:11 EST" duration-ms="11514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remoteDriver -->
+        <test-method signature="lambdatestAdvanceCertificationDeepakChowbey(java.lang.String)[pri:0, instance:test.LambdatestAssignment@4d0f2471]" started-at="2021-11-21T00:35:11 EST" name="lambdatestAdvanceCertificationDeepakChowbey" finished-at="2021-11-21T00:35:35 EST" duration-ms="23938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Windows opened by webdriver are: [CDwindow-B80A9D3C5126F08095C081D370BF7714, CDwindow-1869FF79060BBFD96B6C80F8BEF2D344]]]>
+            </line>
+            <line>
+              <![CDATA[Current window open count is: 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lambdatestAdvanceCertificationDeepakChowbey -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.LambdatestAssignment@4d0f2471]" started-at="2021-11-21T00:35:35 EST" name="afterTest" finished-at="2021-11-21T00:35:36 EST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.LambdatestAssignment -->
+    </test> <!-- Test Edge in Mac -->
+  </suite> <!-- Suite -->
+</testng-results>

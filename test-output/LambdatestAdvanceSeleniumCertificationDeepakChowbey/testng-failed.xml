@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LambdatestAdvanceSeleniumCertificationDeepakChowbey]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Chrome(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test.LambdatestAssignment">
+        <methods>
+          <include name="lambdatestAdvanceCertificationDeepakChowbey"/>
+          <include name="remoteDriver"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.LambdatestAssignment -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+</suite> <!-- Failed suite [LambdatestAdvanceSeleniumCertificationDeepakChowbey] -->
