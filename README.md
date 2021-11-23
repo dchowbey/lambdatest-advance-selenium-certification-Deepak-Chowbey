@@ -7,4 +7,5 @@ https://gitpod.io/#https://github.com/dchowbey/lambdatest-advance-selenium-certi
 
 If you see MAIN repository, please try to change it to MASTER.
 
-Right click on testng.xml file and run the test.
+Run following command to trigger the test execution:
+mvn test
