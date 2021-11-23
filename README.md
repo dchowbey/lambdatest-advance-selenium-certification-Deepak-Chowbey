@@ -3,7 +3,7 @@
 
 Please hit below URL to load it in GITPOD.
 
-https://gitpod.io/#https://github.com/dchowbey/lambdatest-advance-selenium-certification-Deepak-Chowbey/new/master
+https://gitpod.io/#https://github.com/dchowbey/lambdatest-advance-selenium-certification-Deepak-Chowbey/tree/master
 
 If you see MAIN repository, please try to change it to MASTER.
 
